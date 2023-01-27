@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = [1,7,2,7,1];
+        let i = 0;
+        let sum = 0;
+
+        do {
+             //hacemos una comparacion para saber si el elemento no es multiplo de 7
+            // si es así este se va sumando.
+            if(num[i]%7 != 0){
+                sum += num[i];
+            }
+            i++;
+        } while (num[i]!=null);
+
+        console.log("suma de no multiplos de 7: "+sum);
+    </script>
+</body>
+</html>

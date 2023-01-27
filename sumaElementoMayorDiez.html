@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = [0,10,11,11];
+        let i = 0;
+        let sum = 0;
+
+        do {
+            //hacemos una comparacion para saber si el elemento es mayor a diez
+            // si es así este se va sumando.
+            if(num[i]>10){
+                sum += num[i];
+            }
+
+            i++;
+
+        } while (num[i]!=null);
+
+        console.log("suma: "+ sum);
+
+    </script>
+</body>
+</html>

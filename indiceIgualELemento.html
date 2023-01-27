@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = [0,1,2,3];
+        let i = 0;
+        let sum = 0;
+
+        do {
+            //se compara el elemento con su propio indice y si el elemento es igual
+            // se va sumando
+            if(num[i] == i){
+                sum+=num[i];
+            }
+            i++;
+        } while (num[i]!=null);
+
+        console.log("indice y elemento igual: "+sum);
+    </script>
+</body>
+</html>
